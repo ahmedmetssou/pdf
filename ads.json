@@ -1,0 +1,12 @@
+{
+  "applovin": {
+    "enabled": true,
+    "sdk_key": "YOUR_SDK_KEY",
+    "ad_units": {
+      "banner": "YOUR_BANNER_AD_UNIT_ID",
+      "interstitial": "YOUR_INTERSTITIAL_AD_UNIT_ID",
+      "rewarded": "YOUR_REWARDED_AD_UNIT_ID",
+      "app_open": "YOUR_APP_OPEN_AD_UNIT_ID"
+    }
+  }
+}
