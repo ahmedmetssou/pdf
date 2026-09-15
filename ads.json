@@ -1,12 +1,34 @@
 {
-  "applovin": {
+  "version": 2,
+  "ads": {
     "enabled": true,
-    "sdk_key": "YOUR_SDK_KEY",
-    "ad_units": {
-      "banner": "YOUR_BANNER_AD_UNIT_ID",
-      "interstitial": "YOUR_INTERSTITIAL_AD_UNIT_ID",
-      "rewarded": "YOUR_REWARDED_AD_UNIT_ID",
-      "app_open": "YOUR_APP_OPEN_AD_UNIT_ID"
+    "network": "admob",
+
+    "config": {
+      "interstitial_after_actions": 4,
+      "app_open_cooldown_seconds": 60
+    },
+
+    "admob": {
+      "banner": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial": "ca-app-pub-3941782301826022/3792392960",
+      "rewarded": "ca-app-pub-4553493013288907/2067737001",
+      "app_open": "ca-app-pub-3941782301826022/9052458504"
+    },
+
+    "placements": {
+      "home_banner": true,
+      "tools_banner": true,
+      "viewer_banner": true,
+
+      "merge_pdf": true,
+      "split_pdf": true,
+      "compress_pdf": true,
+      "create_pdf": true,
+      "images_to_pdf": true,
+      "scan_pdf": true,
+
+      "app_open": true
     }
   }
 }
