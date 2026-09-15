@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "app_key": "YOUR_LEVELPLAY_APP_KEY",
-  "banner_ad_unit_id": "YOUR_LEVELPLAY_BANNER_AD_UNIT_ID",
-  "interstitial_ad_unit_id": "YOUR_LEVELPLAY_INTERSTITIAL_AD_UNIT_ID",
+  "app_key": "282762865",
+  "banner_ad_unit_id": "h3gbfn0dej8253qi",
+  "interstitial_ad_unit_id": "jcazazd6fkq0skz2",
   "interstitial_after_actions": 4
 }
