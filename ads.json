@@ -1,34 +1,35 @@
 {
-  "version": 1,
+  "version": 5,
   "ads": {
     "enabled": true,
+    "network": "admob",
 
     "config": {
-      "interstitial_after_actions": 1,
+      "interstitial_after_actions": 2,
       "app_open_cooldown_seconds": 60
     },
 
-    "levelplay": {
-      "enabled": true,
-      "app_key": "25b63cf85",
-      "banner_ad_unit": "4fpetq4lhe5lsw3e",
-      "interstitial_ad_unit": "h3xw38h9214adgxo",
-      "rewarded_ad_unit": "PUT_LEVELPLAY_REWARDED_UNIT"
-    },
-
-    "app_open": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-2691472308714121/5407876907",
-      "auto_show": true
+    "admob": {
+    
+      "banner": "ca-app-pub-2691472308714121/8646257649",
+      "interstitial": "ca-app-pub-2691472308714121/5439219382",
+      "rewarded": "ca-app-pub-3940256099942544/5224354917",
+  
+      "app_open": "ca-app-pub-2691472308714121/5407876907"
     },
 
     "placements": {
       "home_banner": true,
-      "scanner_banner": true,
-      "generator_banner": true,
-      "history_banner": true,
-      "interstitial": true,
-      "rewarded": false,
+      "tools_banner": true,
+      "viewer_banner": true,
+
+      "merge_pdf": true,
+      "split_pdf": true,
+      "compress_pdf": true,
+      "create_pdf": true,
+      "images_to_pdf": true,
+      "scan_pdf": true,
+
       "app_open": true
     }
   }
