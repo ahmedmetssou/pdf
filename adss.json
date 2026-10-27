@@ -10,15 +10,15 @@
 
     "levelplay": {
       "enabled": true,
-      "app_key": "25b63cf85",
-      "banner_ad_unit": "4fpetq4lhe5lsw3e",
-      "interstitial_ad_unit": "h3xw38h9214adgxo",
-      "rewarded_ad_unit": "PUT_LEVELPLAY_REWARDED_UNIT"
+      "app_key": "28f3d5945",
+      "banner_ad_unit": "i28ydp3s0o2fwzle",
+      "interstitial_ad_unit": "ed77z7u0okp0czdm",
+      "rewarded_ad_unit": "is5tkfa965191iei"
     },
 
     "app_open": {
       "enabled": true,
-      "ad_unit_id": "ca-app-pub-2691472308714121/5407876907",
+      "ad_unit_id": "ca-app-pub-8516185011430226/6705256486",
       "auto_show": true
     },
 
